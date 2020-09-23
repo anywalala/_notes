@@ -142,15 +142,11 @@ affects what we see:
 >>> del mydata
 """
 ```
-<<<<<<< HEAD
+
 以下是threadlocal真正实现的源码，实际只有100多行。
-```
-=======
-这一段是threading.local里面的注释。
-thread_local提供了一个线程内的局部变量。这个变量在这个线程内有效，
+
 ```
 
->>>>>>> 3e89767e50e7cbf01e6a0f53823943d2dd1949ba
 __all__ = ["local"]
 
 # We need to use objects from the threading module, but the threading
